@@ -131,7 +131,7 @@ class Signup extends Form {
                   </div>
                 </div>
 
-                <div class=" addCss container">
+                <div class=" addCss ">
                   <div class="row">
                     <ul>
                       <p id="copyrightText">

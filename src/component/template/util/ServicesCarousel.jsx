@@ -50,16 +50,18 @@ class ServiceCarousel extends Component {
                     <div className="image-block">
                       <img id="imgBack" src={item.image} alt="Awesome Visual" />
                     </div>
-                    
                   </div>
                 </div>
               </div>
               <div id="pushUp">
-              <h5 className="text-white text-center col-md-6 offset-md-3">No Hazzles</h5>
-              <h5 className="text-white text-center col-md-6 offset-md-3">Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit do eiusmod</h5>
+                <h5 className="text-white text-center col-md-6 offset-md-3">
+                  No Hazzles
+                </h5>
+                <p className="text-white text-center col-md-6 offset-md-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit do
+                  eiusmod
+                </p>
               </div>
-              
             </div>
           </React.Fragment>
         );
