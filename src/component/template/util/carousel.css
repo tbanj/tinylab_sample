@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: "Monospace", sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  /* min-width: 800px;
+  max-width: 800px; */
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: "";
+  /* background-color: rgba(51, 51, 51, 0.9); */
+  -webkit-transition: all 0.25s ease;
+  /* transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s; */
+}
+
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  /* opacity: 0; */
+  top: 10px;
+  letter-spacing: 1px;
+}
+
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.parentaldIV {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* parent carousel start */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bannerTitleAdditional {
+    font-weight: 20px;
+  }
+  #carouselImage {
+    height: 300px;
+  }
+  #addMarginText {
+    margin-bottom: 35%;
+  }
+  #editFont {
+    font-size: 13px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .bannerTitleAdditional {
+    margin: 0;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    opacity: 1;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    transition: all 1.5s ease;
+  }
+
+  .btn-block {
+    display: block;
+    width: 100%;
+    margin-top: 20%;
+  }
+}
+
+.abutton {
+  position: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0.035em;
+  background-color: #57b957;
+  padding: 17px 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* .slick-prev:before, .slick-next:before
+.slick-prev:before, .slick-next:before
+{
+  font-size: 50px;
+  color: #161827;
+} */
+button.slick-next {
+  margin-right: 5%;
+}
+
+button.slick-prev:before,
+button.slick-next:before {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  color: #161827;
+}
+/* parent carousel end */
+
+/* service carousel start */
+.parentServiceDiv {
+  width: 370px;
+  margin-right: 30px;
+}
+.textContentService {
+  padding-left: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #57b957;
+}
+
+/* service carousel end */
+
+/* testimonial carousel start */
+.imgTestimonialCarousel {
+  width: 90px;
+  height: 90px;
+  max-width: none;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #dfe6df;
+}
+
+/* testimonial carousel end */
+
+/* Field Carousel start */
+.backgroundDiv {
+  background-color: #57b957;
+}
+/* Field Carousel start */
+/* 07/10/2019  */
+@media (min-width: 990px) {
+  #imgBack {
+    /* width: 1583px; */
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+.buttonCarousel {
+  border: 1px solid #ff4040;
+  margin-top: 10%;
+}
+
+#textCarouselDiv {
+  position: relative;
+  bottom: 170px;
+}
+/* tinylab */
+
+#pushUp{
+  position: relative;
+  bottom: 300px;
+}

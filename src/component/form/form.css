@@ -1,0 +1,24 @@
+.backgroundLogin {
+    height: -webkit-fill-available;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/dashboard_assets/assets/images/background/login-register.jpg);
+}
+
+.resizeCard {
+    top: 30%;
+}
+
+.backgroundRegister {
+    background-image: url(/dashboard_assets/assets/images/background/img5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+.iconPos{
+    position: relative;
+    right: 20px;
+}
