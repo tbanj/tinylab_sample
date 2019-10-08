@@ -40,7 +40,7 @@ class ServiceCarousel extends Component {
     };
 
     if (data.length > 0) {
-      newsTemplate = data.map(function(item, index) {
+      newsTemplate = data.map(function (item, index) {
         return (
           <React.Fragment>
             <div key={index} style={{ height: "780px" }}>
@@ -77,9 +77,6 @@ class ServiceCarousel extends Component {
     return (
       <div className="news parentCarousel">
         <Slider {...settings}>{newsTemplate}</Slider>
-        {/* <strong className={"news__count " + (data.length > 0 ? "" : "none")}>
-          
-        </strong> */}
       </div>
     );
   }
