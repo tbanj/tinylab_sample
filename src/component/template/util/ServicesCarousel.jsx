@@ -43,12 +43,17 @@ class ServiceCarousel extends Component {
       newsTemplate = data.map(function(item, index) {
         return (
           <React.Fragment>
-            <div key={index}>
+            <div key={index} style={{ height: "780px" }}>
               <div className="owl-item parentServiceDiv ">
                 <div className="item">
                   <div className="single-service-one">
                     <div className="image-block">
-                      <img id="imgBack" src={item.image} alt="Awesome Visual" />
+                      <img
+                        style={{ height: "780px" }}
+                        id="imgBack"
+                        src={item.image}
+                        alt="Awesome Visual"
+                      />
                     </div>
                   </div>
                 </div>
@@ -57,7 +62,7 @@ class ServiceCarousel extends Component {
                 <h5 className="text-white text-center col-md-6 offset-md-3">
                   No Hazzles
                 </h5>
-                <p className="text-white text-center col-md-6 offset-md-3">
+                <p className="text-white text-center col-md-6 offset-md-3 pt-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit do
                   eiusmod
                 </p>
@@ -70,13 +75,11 @@ class ServiceCarousel extends Component {
       newsTemplate = <p>Please add some cards</p>;
     }
     return (
-      <div className="" style={{ color: "transparent" }}>
-        <div className="news parentCarousel">
-          <Slider {...settings}>{newsTemplate}</Slider>
-          <strong className={"news__count " + (data.length > 0 ? "" : "none")}>
-            T
-          </strong>
-        </div>
+      <div className="news parentCarousel">
+        <Slider {...settings}>{newsTemplate}</Slider>
+        {/* <strong className={"news__count " + (data.length > 0 ? "" : "none")}>
+          
+        </strong> */}
       </div>
     );
   }

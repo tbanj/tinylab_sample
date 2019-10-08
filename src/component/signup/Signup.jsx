@@ -18,7 +18,7 @@ class Signup extends Form {
         firstname: "Joshua",
         lastname: "Bakare",
         email: "josh.baakery@gmail.com",
-        password: "international1"
+        password: "International1"
       },
       errors: {}
     };
@@ -112,8 +112,8 @@ class Signup extends Form {
                         {this.renderInput(
                           "password",
                           "Password",
-                          false,
                           "password",
+                          false,
                           "removeBorder",
                           "/images/eye.svg"
                         )}
@@ -130,20 +130,21 @@ class Signup extends Form {
                     </div>
                   </div>
                 </div>
-
-                <div class=" addCss ">
-                  <div class="row">
-                    <ul>
-                      <p id="copyrightText">
-                        By signing up, you agree to our Terms and Privacy Policy
-                      </p>
-                    </ul>
-                    <ul id="footerMobile" class="ml-auto">
-                      <div class="copyText">
-                        © 2019 Tinylabs. All right reserved
-                      </div>
-                    </ul>
-                  </div>
+              </div>
+              <div class=" addCss container">
+                <div class="row">
+                  <ul>
+                    <p id="copyrightText">
+                      By signing up, you agree to our{" "}
+                      <span className="colorAdded">Terms</span> and
+                      <span className="colorAdded ml-1"> Privacy Policy</span>
+                    </p>
+                  </ul>
+                  <ul id="footerMobile" class="ml-auto">
+                    <div class="copyText">
+                      © 2019 Tinylabs. All right reserved
+                    </div>
+                  </ul>
                 </div>
               </div>
             </div>
